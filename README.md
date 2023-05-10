@@ -18,7 +18,7 @@ To install an extension, use the `heoctl` tool to apply the manifest files and t
 ./heoctl install <extension_name> --inputs <input_variables>
 
 # Example
-./heoctl install nginx-k8s --input appname=nginx-deploy,replicas=1
+./heoctl install nginx-k8s --input appname=nginx-deploy,replicas=1,author=authorName
 ```
 
 ### Deletion
