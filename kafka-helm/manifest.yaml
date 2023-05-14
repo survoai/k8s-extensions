@@ -1,0 +1,15 @@
+name: kafka-helm
+description: A Helm extension to deploy Apache Kafka in a Kubernetes cluster
+type: helm
+version: 1.0.0
+author: Your Name
+inputs:
+  - name: release_name
+    type: string
+    required: true
+    description: Helm release name for the Kafka deployment
+  - name: namespace
+    type: string
+    required: false
+    default: "default"
+    description: Kubernetes namespace for the Kafka deployment
