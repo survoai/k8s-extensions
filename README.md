@@ -46,7 +46,7 @@ This guide explains how to create an extension for the Humalect Extensions Orche
 An extension consists of the following components:
 
 1. **Manifest file:** A YAML file containing metadata and input parameters for the extension.
-2. **Configuration folder:** A folder named k8s, helm, or terraform containing the necessary files and templates for the specific configuration management tool.
+2. **Configuration folder:** A folder named k8s, helm, or terraform containing the necessary files and templates for the specific configuration management tool. Please use `terraform` as the name of folder to store tf files and that folder should be paraller to manifest file.
 
 ### **Manifest file:**
 

@@ -1,0 +1,15 @@
+name: s3_bucket  
+description: Create an Amazon S3 bucket using Terraform  
+type: terraform  
+version: 1.0.0  
+author: Your Name  
+inputs:  
+  - name: bucket_name  
+    type: string  
+    required: true  
+    description: Name of the S3 bucket to create  
+  - name: aws_region  
+    type: string  
+    required: true  
+    description: AWS region where the S3 bucket will be created  
+
