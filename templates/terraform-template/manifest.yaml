@@ -1,0 +1,10 @@
+name: <extension-name>
+description: <extension-description>
+type: terraform
+version: 1.0.0
+author: <author-email>
+inputs:
+  - name: <input-one>
+    type: string
+    required: true
+    description: <description-of-input-one>
