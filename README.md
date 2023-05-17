@@ -1,8 +1,8 @@
-# Humalect Extensions
+# K8s Extensions
 
 ## Introduction
 
-The `extensions` repository is a collection of custom Kubernetes extensions designed to enhance and extend the capabilities of a Kubernetes cluster. These extensions include custom resources, controllers, operators, and other tools that can be easily installed and managed using the `heoctl` utility. This can be found at [Humalect Extensions Orchestrator](https://github.com/Humalect/k8s-extension-installer)
+The `extensions` repository is a collection of custom Kubernetes extensions designed to enhance and extend the capabilities of a Kubernetes cluster. These extensions include custom resources, controllers, operators, and other tools that can be easily installed and managed using the `heoctl` utility. This can be found at [K8s Extensions Installer](https://github.com/Humalect/k8s-extension-installer)
 
 ## Documentation
 

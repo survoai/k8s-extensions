@@ -1,10 +1,10 @@
-# Contributing to humalect-extensions
+# Contributing to k8s-extensions
 
-First of all, thank you for your interest in contributing to `humalect-extensions`! We welcome contributions from everyone and are glad you're here.
+First of all, thank you for your interest in contributing to `k8s-extensions`! We welcome contributions from everyone and are glad you're here.
 
 ## Getting Started
 
-1. Fork the `humalect-extensions` repository on GitHub.
+1. Fork the `k8s-extensions` repository on GitHub.
 2. Clone your fork locally on your machine.
 3. Set up your development environment.
 
@@ -25,7 +25,7 @@ Here are some basic steps for code contributions:
 
 ## Creating an Extension
 
-This guide explains how to create an extension for the Humalect Extensions Orchestrator. An extension consists of a manifest file and a folder named k8s, helm, or terraform, depending on the type of extension.
+This guide explains how to create an extension for the K8s Extensions Installer. An extension consists of a manifest file and a folder named k8s, helm, or terraform, depending on the type of extension.
 
 ### **Extension Structure:**
 
