@@ -12,12 +12,13 @@ First of all, thank you for your interest in contributing to `k8s-extensions`! W
 
 Here are some basic steps for code contributions:
 
-1. Create a new branch for each feature or bug fix.
-2. Write your code. (See below section on creating an extension)
-3. Commit your changes. Make sure your commit messages are clear and follow the commit message conventions.
-4. Push your changes to your fork.
-5. Create a pull request.
-6. Address any review comments.
+1. Create an issue in the  `k8s-extensions` repository on GitHub. Mention clear description stating what is the issue about and if its a new extension or bugfix.
+2. Create a new branch for each extension or bug fix.
+3. Write your code. (See below section on creating an extension)
+4. Commit your changes. Make sure your commit messages are clear and follow the commit message conventions.
+5. Push your changes to your fork.
+6. Create a pull request.
+7. Address any review comments.
 
 > Note: You can take advantage of `templates` folder which contains a boilerplate to get started with building an extension.
 >
