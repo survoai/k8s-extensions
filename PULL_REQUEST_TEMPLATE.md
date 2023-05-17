@@ -15,7 +15,7 @@ Fixes # (issue)
 ## Checklist:
 
 - [ ] My code follows the style guidelines of this project
-- [ ] I am adhering to the guidelines provided in [CONTRIBUTING.md](CONTRIBUTING.md)
+- [ ] I am adhering to the guidelines provided in [CONTRIBUTING.md](https://github.com/Humalect/humalect-extensions/blob/main/CONTRIBUTING.md)
 - [ ] I have performed a self-review of my own code
 - [ ] I have commented my code, particularly in hard-to-understand areas
 - [ ] I have added corresponding documentation in my extension
