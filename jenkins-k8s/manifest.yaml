@@ -1,0 +1,29 @@
+name: Jenkins
+description: This extension can be used by exntension-installer to spin up a Jenkins deployment in a Kubernetes cluster via `heoctl` utility.
+type: k8s
+version: 1.0.0
+author: Vandit Singh
+inputs:
+  - name: appname
+    type: string
+    required: true
+    description: Name of the app
+  - name: namespace
+    type: string
+    required: false
+    default: default
+    description: Namespace for the deployment
+  - name: replicas
+    type: integer
+    required: false
+    default: 4
+    description: Number of replicas
+  - name: nodeport
+    type: integer
+    required: false
+    default: 30000
+    description: Port on which you can access the application
+  - name: author
+    type: string
+    required: true
+    description: Author of the application
