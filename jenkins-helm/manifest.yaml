@@ -1,0 +1,10 @@
+name: jenkins-helm
+description: A Helm extension to deploy Jenkins in a Kubernetes cluster
+type: helm
+version: 1.0.0
+author: Vandit Singh
+inputs:
+  - name: release_name
+    type: string
+    required: true
+    description: Helm release name for the Jenkins deployment
