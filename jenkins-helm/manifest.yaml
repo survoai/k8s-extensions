@@ -8,3 +8,8 @@ inputs:
     type: string
     required: true
     description: Helm release name for the Jenkins deployment
+  - name: namespace
+    type: string
+    required: false
+    default: "default"
+    description: Kubernetes namespace for the Jenkins deployment

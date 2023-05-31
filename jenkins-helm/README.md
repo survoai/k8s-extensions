@@ -1,4 +1,4 @@
-# < Extension Name >
+# Jenkins Instance
 
 ## Type
 
@@ -6,7 +6,7 @@ helm
 
 ## Description
 
-A brief description of what this extension does.
+This extension creates a Jenkins instance on kubernetes using a helm chart
 
 ## Version
 
@@ -14,21 +14,19 @@ Version: 1.0.0
 
 ## Author
 
-Author: [Author Name]
+Author: 
 
 ## Inputs
 
-- `input-one`: First input of the extension
-- `input-two`: Second input of the extension
+- **release_name<sup>\*</sup>**: Name of the application
+- **namespace**: Namespace
 
 ## Example
 
-Provide example on how to install this extension.
+```
+heoctl install jenkins-helm --input release_name=jenkins-release,namespace=jenkins
+```
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc.
-
-**Note**: Don't forget to replace the placeholders such as `<Extension Name>`, `[Author Name]`, etc. with actual values.
+- I wanna thank myself for creating this extension
