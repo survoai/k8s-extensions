@@ -1,7 +1,8 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{.appname}}
+  name: '{{.appname}}'
+  namespace: '{{.namespace}}'
 spec:
   replicas: {{.replicas}}
   selector:

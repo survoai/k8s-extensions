@@ -18,12 +18,3 @@ inputs:
     required: false
     default: 4
     description: Number of replicas
-  - name: nodeport
-    type: integer
-    required: false
-    default: 30000
-    description: Port on which you can access the application
-  - name: author
-    type: string
-    required: true
-    description: Author of the application
