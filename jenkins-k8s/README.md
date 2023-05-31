@@ -20,21 +20,14 @@ Author: Vandit Singh
 
 - **appname<sup>\*</sup>**: Name of the application
 - **namespace<sup>\*</sup>**: Namespace for the application (default: default)
-- **author<sup>\*</sup>**: Author of the application
 - **replicas**: Number of replicas (default: 4)
 
 ## Example
 
 ```
-heoctl install jenkins-k8s --input appname=jenkins-deployment,author=vandit,namespace=jenkins-ns,replicas=1,nodeport=30000
+heoctl install jenkins-k8s --input appname=jenkins-deployment,namespace=jenkins-ns,replicas=1
 ```
 
-should be between this range:
-
-30000 <= nodeport <= 32767
-
-You'll be able to access the application on `localhost:<nodeport>`
-if you don't input the nodeport by default you can access the server on `localhost:30000`
 
 ## Post installation
 
